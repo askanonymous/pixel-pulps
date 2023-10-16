@@ -75,10 +75,15 @@ WSGI_APPLICATION = 'Hello.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'H1B Applicant',
+        'USER': 'rajat',
+        'PASSWORD': 'pulp',
+        'HOST': 'localhost',  # Change to your database host
+        'PORT': '5432',  # Leave empty for the default port
     }
 }
+
 
 
 # Password validation

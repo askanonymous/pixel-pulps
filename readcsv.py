@@ -4,8 +4,8 @@ import csv
 # Establish a connection to the PostgreSQL database
 conn = psycopg2.connect(
     dbname="h1b_data",
-    user = "pixel pulp",
-    password = "45678",
+    user = "asd123qwe",
+    password = "",
     host="localhost"
 )
 

@@ -1,7 +1,8 @@
 from django.http import JsonResponse
 from django.db.models import Count, Avg, F, Func
-#from app_name.models import H1BApplicant
+from app_name.models import H1BApplicant
 from django.http import HttpResponse
+from .utilis import countndpreprocess
 
 # Create your views here.
 # I. Number of results
